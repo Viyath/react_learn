@@ -1,9 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render(
-  <ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-  </ul>, document.getElementById('root'));
+function MyInfo() {
+  return (
+    <div>
+      <h1>Life Hacks</h1>
+      <ul>
+        <li>Wake Up</li>
+        <li>Eat</li>
+        <li>Sleep</li>
+      </ul>
+    </div>
+  );
+}
+
+ReactDOM.render(<MyInfo />, document.getElementById("root"));
