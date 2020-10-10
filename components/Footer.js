@@ -1,6 +1,6 @@
 import React from "react";
 
-function App() {
+function Footer() {
   return <p>This is footer Element</p>;
 }
 
