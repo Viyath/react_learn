@@ -16,9 +16,13 @@ if (hours < 12) {
   timeOfDay = "night"
 }
 
+const style = {
+  color: "#FF8C00", 
+  backgroundColor: "#FF2D00"
+}
   return (
     <div>
-      <h1 style={{color: "#FF8C00", backgroundColor: "#FF2D00"}}>Good {timeOfDay} !</h1>
+      <h1 style={style}>Good {timeOfDay} !</h1>
       <Nav />
       <Main />
       <Footer />
