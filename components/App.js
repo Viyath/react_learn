@@ -18,7 +18,7 @@ if (hours < 12) {
 
   return (
     <div>
-      <h1>Good {timeOfDay} !</h1>
+      <h1 style={{color:"#FF8C00"}}>Good {timeOfDay} !</h1>
       <Nav />
       <Main />
       <Footer />
