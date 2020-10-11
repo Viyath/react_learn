@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <h1>JSX to JavaScript exercise {fName + " " + lName}</h1>
+      <h1>Hello {`${fName} ${lName}`} !</h1>
       <Nav />{fName + " " + lName}
       <Main />
       <Footer />
