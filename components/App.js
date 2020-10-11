@@ -4,10 +4,13 @@ import Main from "../components/MainContent";
 import Footer from "../components/Footer";
 
 function App() {
+  const fName = "konga"
+  const lName = "anta"
+
   return (
     <div>
-      <h1>Component exercise</h1>
-      <Nav />
+      <h1>JSX to JavaScript exercise {fName + " " + lName}</h1>
+      <Nav />{fName + " " + lName}
       <Main />
       <Footer />
     </div>
